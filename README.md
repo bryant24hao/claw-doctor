@@ -1,5 +1,7 @@
 # claw-doctor
 
+[English](README.md) | [中文](README.zh-CN.md)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform: macOS | Linux](https://img.shields.io/badge/Platform-macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/bryant24hao/claw-doctor)
 
