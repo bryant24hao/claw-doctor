@@ -3,7 +3,7 @@
 [English](README.md) | [中文](README.zh-CN.md)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Platform: macOS | Linux](https://img.shields.io/badge/Platform-macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/bryant24hao/claw-doctor)
+[![Platform: macOS | Linux | Windows (WSL)](https://img.shields.io/badge/Platform-macOS%20%7C%20Linux%20%7C%20Windows%20(WSL)-lightgrey.svg)](https://github.com/bryant24hao/claw-doctor)
 
 > One command to diagnose your entire OpenClaw setup. Finds problems, explains impact, offers fixes.
 
@@ -119,8 +119,10 @@ Available fixes:
 
 ```bash
 brew install jq    # macOS
-apt install jq     # Debian/Ubuntu
+apt install jq     # Debian/Ubuntu/WSL
 ```
+
+> **Windows users**: Run inside [WSL](https://learn.microsoft.com/en-us/windows/wsl/install). Native Windows (PowerShell/cmd) is not supported.
 
 ## Security & Privacy
 

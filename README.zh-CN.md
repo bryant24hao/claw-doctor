@@ -3,7 +3,7 @@
 [English](README.md) | [中文](README.zh-CN.md)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Platform: macOS | Linux](https://img.shields.io/badge/Platform-macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/bryant24hao/claw-doctor)
+[![Platform: macOS | Linux | Windows (WSL)](https://img.shields.io/badge/Platform-macOS%20%7C%20Linux%20%7C%20Windows%20(WSL)-lightgrey.svg)](https://github.com/bryant24hao/claw-doctor)
 
 > 一条命令诊断整个 OpenClaw 环境。发现问题、解释影响、提供修复。
 
@@ -119,8 +119,10 @@ openclaw sessions cleanup --dry-run → 候选项    → LLM 分诊
 
 ```bash
 brew install jq    # macOS
-apt install jq     # Debian/Ubuntu
+apt install jq     # Debian/Ubuntu/WSL
 ```
+
+> **Windows 用户**：请在 [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) 中运行。不支持原生 Windows（PowerShell/cmd）。
 
 ## 安全与隐私
 
