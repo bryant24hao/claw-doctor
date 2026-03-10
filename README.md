@@ -3,7 +3,7 @@
 [English](README.md) | [中文](README.zh-CN.md)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Platform: macOS | Linux | Windows (WSL)](https://img.shields.io/badge/Platform-macOS%20%7C%20Linux%20%7C%20Windows%20(WSL)-lightgrey.svg)](https://github.com/bryant24hao/claw-doctor)
+[![Platform: macOS | Linux | Windows (WSL)](https://img.shields.io/badge/Platform-macOS%20%7C%20Linux%20%7C%20Windows%20(WSL)-lightgrey.svg)](https://github.com/bryant24hao/oc-doctor)
 
 > One command to diagnose your entire OpenClaw setup. Finds problems, explains impact, offers fixes.
 
@@ -43,7 +43,7 @@ What used to take hours of manual troubleshooting now takes 2 minutes. Run it we
 **Via [skills.sh](https://skills.sh)** (recommended):
 
 ```bash
-npx skills add bryant24hao/claw-doctor -g -y
+npx skills add bryant24hao/oc-doctor -g -y
 ```
 
 **Via [ClawdHub](https://clawdhub.ai)**:
@@ -55,7 +55,7 @@ clawhub install oc-doctor
 **Manual**:
 
 ```bash
-git clone https://github.com/bryant24hao/claw-doctor.git ~/.claude/skills/claw-doctor
+git clone https://github.com/bryant24hao/oc-doctor.git ~/.claude/skills/claw-doctor
 ```
 
 ## Usage

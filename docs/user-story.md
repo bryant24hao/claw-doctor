@@ -119,5 +119,5 @@
 **安装只需一行：**
 
 ```bash
-npx skills add bryant24hao/claw-doctor -g -y
+npx skills add bryant24hao/oc-doctor -g -y
 ```

@@ -15,7 +15,7 @@ metadata:
         - openclaw
         - jq
     emoji: "stethoscope"
-    homepage: https://github.com/bryant24hao/claw-doctor
+    homepage: https://github.com/bryant24hao/oc-doctor
     os:
       - macos
       - linux

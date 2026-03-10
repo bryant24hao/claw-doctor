@@ -3,7 +3,7 @@
 [English](README.md) | [中文](README.zh-CN.md)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Platform: macOS | Linux | Windows (WSL)](https://img.shields.io/badge/Platform-macOS%20%7C%20Linux%20%7C%20Windows%20(WSL)-lightgrey.svg)](https://github.com/bryant24hao/claw-doctor)
+[![Platform: macOS | Linux | Windows (WSL)](https://img.shields.io/badge/Platform-macOS%20%7C%20Linux%20%7C%20Windows%20(WSL)-lightgrey.svg)](https://github.com/bryant24hao/oc-doctor)
 
 > 一条命令诊断整个 OpenClaw 环境。发现问题、解释影响、提供修复。
 
@@ -43,7 +43,7 @@
 **通过 [skills.sh](https://skills.sh)**（推荐）：
 
 ```bash
-npx skills add bryant24hao/claw-doctor -g -y
+npx skills add bryant24hao/oc-doctor -g -y
 ```
 
 **通过 [ClawdHub](https://clawdhub.ai)**：
@@ -55,7 +55,7 @@ clawhub install oc-doctor
 **手动安装**：
 
 ```bash
-git clone https://github.com/bryant24hao/claw-doctor.git ~/.claude/skills/claw-doctor
+git clone https://github.com/bryant24hao/oc-doctor.git ~/.claude/skills/claw-doctor
 ```
 
 ## 使用方法

@@ -119,5 +119,5 @@ No more 2 AM wake-up calls from Telegram.
 **Install in one line:**
 
 ```bash
-npx skills add bryant24hao/claw-doctor -g -y
+npx skills add bryant24hao/oc-doctor -g -y
 ```
