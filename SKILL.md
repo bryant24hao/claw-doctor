@@ -1,5 +1,5 @@
 ---
-name: claw-doctor
+name: oc-doctor
 description: >
   Runs a comprehensive 11-section health check on local OpenClaw installations.
   Diagnoses configuration errors, session bloat, model drift, cron issues, security
@@ -213,7 +213,7 @@ Locate and run the bundled collector script from the skill directory:
 
 ```bash
 # Find the skill directory (works whether installed via skills.sh, clawhub, or manually)
-SKILL_DIR="$(find ~/.claude/skills ~/.agents/skills -maxdepth 3 -name 'sysinstruction-check.sh' -path '*/claw-doctor/*' 2>/dev/null | head -1 | xargs dirname)"
+SKILL_DIR="$(find ~/.claude/skills ~/.agents/skills -maxdepth 3 -name 'sysinstruction-check.sh' -path '*/oc-doctor/*' 2>/dev/null | head -1 | xargs dirname)"
 bash "$SKILL_DIR/sysinstruction-check.sh"
 ```
 

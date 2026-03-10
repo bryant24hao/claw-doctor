@@ -1,4 +1,4 @@
-# claw-doctor
+# oc-doctor
 
 [English](README.md) | [中文](README.zh-CN.md)
 
@@ -8,7 +8,7 @@
 > One command to diagnose your entire OpenClaw setup. Finds problems, explains impact, offers fixes.
 
 <p align="center">
-  <img src="assets/demo.svg" alt="claw-doctor demo report" width="800">
+  <img src="assets/demo.svg" alt="oc-doctor demo report" width="800">
 </p>
 
 A Claude Code / OpenClaw skill that runs **11 diagnostic sections** on your local OpenClaw installation and generates a structured health report with `CRITICAL` / `WARNING` / `INFO` findings — then offers to fix them interactively, in your language.
@@ -19,10 +19,10 @@ Midnight. Your Telegram bot is responding to every message in a group because `r
 
 You spend two hours digging through config files, grepping logs, searching GitHub Issues. You fix three things but have no idea what else is lurking.
 
-**With claw-doctor, one command finds all of it in 60 seconds — and fixes it in 30 more.**
+**With oc-doctor, one command finds all of it in 60 seconds — and fixes it in 30 more.**
 
 ```
-/claw-doctor
+/oc-doctor
 → 12 findings: 1 CRITICAL, 4 WARNING, 7 INFO
 → "Fix all?" → Yes
 → Done. Security patched, models aligned, 282 MB cache cleared, dead files cleaned.
@@ -55,7 +55,7 @@ clawhub install oc-doctor
 **Manual**:
 
 ```bash
-git clone https://github.com/bryant24hao/oc-doctor.git ~/.claude/skills/claw-doctor
+git clone https://github.com/bryant24hao/oc-doctor.git ~/.claude/skills/oc-doctor
 ```
 
 ## Usage
@@ -63,7 +63,7 @@ git clone https://github.com/bryant24hao/oc-doctor.git ~/.claude/skills/claw-doc
 Just say any of these in Claude Code or OpenClaw:
 
 ```
-/claw-doctor
+/oc-doctor
 openclaw doctor
 claw health check
 openclaw diagnose
@@ -138,7 +138,7 @@ This skill operates locally and makes no network requests. However, diagnostic o
 ## Directory Structure
 
 ```
-claw-doctor/
+oc-doctor/
 ├── SKILL.md                          # Skill definition (loaded by Claude Code)
 ├── scripts/
 │   └── sysinstruction-check.sh       # System instruction token analysis

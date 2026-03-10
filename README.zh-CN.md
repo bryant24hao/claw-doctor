@@ -1,4 +1,4 @@
-# claw-doctor
+# oc-doctor
 
 [English](README.md) | [中文](README.zh-CN.md)
 
@@ -8,7 +8,7 @@
 > 一条命令诊断整个 OpenClaw 环境。发现问题、解释影响、提供修复。
 
 <p align="center">
-  <img src="assets/demo.svg" alt="claw-doctor 诊断报告演示" width="800">
+  <img src="assets/demo.svg" alt="oc-doctor 诊断报告演示" width="800">
 </p>
 
 一个 Claude Code / OpenClaw 技能，对本地 OpenClaw 安装执行 **11 项诊断检查**，生成包含 `CRITICAL` / `WARNING` / `INFO` 分级的结构化健康报告，并支持交互式一键修复，自动匹配你的语言。
@@ -19,10 +19,10 @@
 
 你花了两个小时翻配置文件、grep 日志、搜 GitHub Issues。修了三个问题，但不知道还有没有别的坑。
 
-**用 claw-doctor，一条命令 60 秒找到所有问题，再用 30 秒修好。**
+**用 oc-doctor，一条命令 60 秒找到所有问题，再用 30 秒修好。**
 
 ```
-/claw-doctor
+/oc-doctor
 → 12 项发现：1 CRITICAL、4 WARNING、7 INFO
 → "全部修复？" → 是
 → 完成。安全加固、模型对齐、282 MB 缓存清理、死文件清除。
@@ -55,7 +55,7 @@ clawhub install oc-doctor
 **手动安装**：
 
 ```bash
-git clone https://github.com/bryant24hao/oc-doctor.git ~/.claude/skills/claw-doctor
+git clone https://github.com/bryant24hao/oc-doctor.git ~/.claude/skills/oc-doctor
 ```
 
 ## 使用方法
@@ -63,7 +63,7 @@ git clone https://github.com/bryant24hao/oc-doctor.git ~/.claude/skills/claw-doc
 在 Claude Code 或 OpenClaw 中说：
 
 ```
-/claw-doctor
+/oc-doctor
 openclaw doctor
 claw health check
 openclaw diagnose
@@ -138,7 +138,7 @@ apt install jq     # Debian/Ubuntu/WSL
 ## 目录结构
 
 ```
-claw-doctor/
+oc-doctor/
 ├── SKILL.md                          # 技能定义（由 Claude Code 加载）
 ├── scripts/
 │   └── sysinstruction-check.sh       # 系统指令 token 分析

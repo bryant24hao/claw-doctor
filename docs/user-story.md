@@ -34,10 +34,10 @@
 
 ---
 
-## 后来，我装了 claw-doctor
+## 后来，我装了 oc-doctor
 
 ```
-/claw-doctor
+/oc-doctor
 ```
 
 一条命令，60 秒后：
@@ -107,7 +107,7 @@
 ## 现在我每周跑一次
 
 ```
-/claw-doctor
+/oc-doctor
 ```
 
 就像给 OpenClaw 做体检。大部分时候报告是"健康"，偶尔冒出一两个 WARNING，当场修掉。

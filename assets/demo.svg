@@ -19,11 +19,11 @@
   <circle cx="40" cy="18" r="6" fill="#febc2e"/>
   <circle cx="60" cy="18" r="6" fill="#28c840"/>
   <!-- Title -->
-  <text x="400" y="23" text-anchor="middle" fill="#98989d" font-size="13">Terminal — claw-doctor</text>
+  <text x="400" y="23" text-anchor="middle" fill="#98989d" font-size="13">Terminal — oc-doctor</text>
 
   <!-- Command line -->
   <text x="20" y="65" fill="#28c840" font-size="13" font-weight="700">❯</text>
-  <text x="36" y="65" fill="#e5e5e7" font-size="13">/claw-doctor</text>
+  <text x="36" y="65" fill="#e5e5e7" font-size="13">/oc-doctor</text>
 
   <!-- Spinner line -->
   <text x="20" y="88" fill="#98989d" font-size="13">🩺 Running 11 diagnostic sections...</text>

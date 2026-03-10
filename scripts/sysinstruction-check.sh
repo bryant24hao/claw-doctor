@@ -1,5 +1,5 @@
 #!/bin/bash
-# sysinstruction-check.sh — Collect system instruction health data for /claw-doctor
+# sysinstruction-check.sh — Collect system instruction health data for /oc-doctor
 # Usage: bash sysinstruction-check.sh
 # Outputs structured JSON to stdout
 #

@@ -34,10 +34,10 @@ You start digging through docs, searching GitHub Issues, checking config files o
 
 ---
 
-## Then I Installed claw-doctor
+## Then I Installed oc-doctor
 
 ```
-/claw-doctor
+/oc-doctor
 ```
 
 One command. 60 seconds later:
@@ -107,7 +107,7 @@ None of these are emergencies. But over time they become performance degradation
 ## Now I Run It Weekly
 
 ```
-/claw-doctor
+/oc-doctor
 ```
 
 Like a health check for OpenClaw. Most weeks the report says "healthy". Occasionally a WARNING pops up — fixed on the spot.
