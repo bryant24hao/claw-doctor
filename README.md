@@ -2,7 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform: macOS | Linux](https://img.shields.io/badge/Platform-macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/bryant24hao/claw-doctor)
-[![OpenClaw](https://img.shields.io/badge/OpenClaw-skill-green.svg)](https://github.com/nicepkg/openclaw)
 
 > One command to diagnose your entire OpenClaw setup. Finds problems, explains impact, offers fixes.
 
@@ -113,7 +112,7 @@ Available fixes:
 
 ## Prerequisites
 
-- **[OpenClaw](https://github.com/nicepkg/openclaw)** installed and in PATH
+- **OpenClaw** installed and in PATH
 - **[jq](https://jqlang.github.io/jq/)** for the system instruction analysis script
 
 ```bash
