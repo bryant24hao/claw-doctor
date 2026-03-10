@@ -49,7 +49,7 @@ npx skills add bryant24hao/claw-doctor -g -y
 **通过 [ClawdHub](https://clawdhub.ai)**：
 
 ```bash
-clawhub install claw-doctor
+clawhub install oc-doctor
 ```
 
 **手动安装**：
