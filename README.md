@@ -28,7 +28,7 @@ You spend two hours digging through config files, grepping logs, searching GitHu
 → Done. Security patched, models aligned, 282 MB cache cleared, dead files cleaned.
 ```
 
-What used to take hours of manual troubleshooting now takes 2 minutes. Run it weekly — like a health check for your OpenClaw setup. ([Full story](docs/user-story.md))
+What used to take hours of manual troubleshooting now takes 2 minutes. Run it weekly — like a health check for your OpenClaw setup. ([Full story](docs/user-story.en.md))
 
 ## Highlights
 

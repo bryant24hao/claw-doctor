@@ -1,3 +1,5 @@
+[English](user-story.en.md) | [中文](user-story.md)
+
 # 一个 OpenClaw 用户的真实经历
 
 ## 凌晨 2 点，飞书群炸了
